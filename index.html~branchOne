@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
-    <link rel="shortcut icon" href="../images/diareLogo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/diareLogo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Marze2</title>
+    <link rel="stylesheet" type="text/css" href="./landscape.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" type="text/css" href="./portrait.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="./style.css">
+    <title>Marze</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
         <div class="container">
-            <a href="#"><img src="../images/diareLogo.png" style="
+            <a href="#"><img class="logo" src="./images/diareLogo.png" style="
                 height: 80px;
                 font-size: 0 !important;
                 /* padding: 0 0 80% !important; */
@@ -46,7 +48,7 @@
         </div>
       </nav>
       <div class="main">
-        <div class="header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/img3.jpg');">
+        <div class="header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/img3.jpg');">
             <div class="welcome container">
                 <h1>Bienvenidos</h1>
                 <h1><span>a</span><em> Marze</em></h1>
@@ -58,7 +60,7 @@
             <div class="showcase-wrapper">
               <div class="showcase-items">
                   <div class="portofolio-item-wrapper">
-                      <div class="portofolio-img-background" style="background-image: url(../images/img3.jpg)"></div>
+                      <div class="portofolio-img-background" style="background-image: url(./images/img3.jpg)"></div>
                       <div class="img-text-wrapper">
                           <div class="logo-wrapper">
                           </div>
@@ -68,7 +70,7 @@
                       </div>
                   </div>
                   <div class="portofolio-item-wrapper">
-                    <div class="portofolio-img-background" style="background-image: url(../images/img2.jpg)"></div>
+                    <div class="portofolio-img-background" style="background-image: url(./images/img2.jpg)"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
                         </div>
@@ -78,7 +80,7 @@
                     </div>
                 </div>
                 <div class="portofolio-item-wrapper">
-                    <div class="portofolio-img-background" style="background-image: url(../images/img4.jpg)"></div>
+                    <div class="portofolio-img-background" style="background-image: url(./images/img4.jpg)"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
                         </div>
@@ -88,7 +90,7 @@
                     </div>
                 </div>
                 <div class="portofolio-item-wrapper">
-                    <div class="portofolio-img-background" style="background-image: url(../images/img2.jpg)"></div>
+                    <div class="portofolio-img-background" style="background-image: url(./images/img2.jpg)"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
                         </div>
@@ -101,7 +103,7 @@
 
               <div class="showcase-items">
                 <div class="portofolio-item-wrapper">
-                    <div class="portofolio-img-background" style="background-image: url(../images/img1.jpg)"></div>
+                    <div class="portofolio-img-background" style="background-image: url(./images/img1.jpg)"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
                         </div>
@@ -111,7 +113,7 @@
                     </div>
                 </div>
                 <div class="portofolio-item-wrapper">
-                  <div class="portofolio-img-background" style="background-image: url(../images/img3.jpg)"></div>
+                  <div class="portofolio-img-background" style="background-image: url(./images/img3.jpg)"></div>
                   <div class="img-text-wrapper">
                       <div class="logo-wrapper">
                       </div>
@@ -121,7 +123,7 @@
                   </div>
               </div>
               <div class="portofolio-item-wrapper">
-                  <div class="portofolio-img-background" style="background-image: url(../images/img2.jpg)"></div>
+                  <div class="portofolio-img-background" style="background-image: url(./images/img2.jpg)"></div>
                   <div class="img-text-wrapper">
                       <div class="logo-wrapper">
                       </div>
@@ -131,7 +133,7 @@
                   </div>
               </div>
               <div class="portofolio-item-wrapper">
-                  <div class="portofolio-img-background" style="background-image: url(../images/img3.jpg)"></div>
+                  <div class="portofolio-img-background" style="background-image: url(./images/img3.jpg)"></div>
                   <div class="img-text-wrapper">
                       <div class="logo-wrapper">
                       </div>
@@ -152,7 +154,7 @@
             <div class="contacto" id="contacto">
                 <ul>
                     <li> <a href="mailto:">marzemarze640@gmail.com</a> </li>
-                    <li> <a href="tel:+">Tel: (541)238-5572 </a></li>
+                    <li> <a href="tel:(541)238-5572 ">Tel: (541)238-5572 </a></li>
                 </ul>
             </div>
             <div class="footer-links">
