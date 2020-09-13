@@ -1,0 +1,150 @@
+/* //// iPhone 4/ iPhone 5/se // iPhone 6, 7, 8 + // iPhone 6, 7, 8/ iPhone X .. 
+        with general or global directions
+*/
+@media screen and (max-width: 575.98px)
+and (orientation: portrait)  {
+/* body {
+    background-color: turquoise;
+} */
+  
+.logo {
+    height: 100px !important;
+    margin: 0% 10% -45% 30% !important;
+}
+
+.navigation {
+    padding: 30px !important;
+}
+
+.navbar-nav {
+    padding-left: 10px !important;
+    margin-top: 50px !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    padding-left: 2.5rem !important;
+    color: var(--main-color) !important;
+    margin-right: 3.125rem;
+    margin-top: 20px;
+    border-bottom: none;
+}
+.nav-item .nav-link {
+    text-shadow: var(--box-shadow) !important;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spa) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--secong-color) !important;
+    border-bottom: none ;
+}
+.header {
+    height: 100vh !important;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    position: relative;
+}
+
+.welcome {
+    margin-top: 25% !important;
+    padding: 60px ;
+}
+
+.welcome h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: var(--letter-spa);
+}
+.btn-contacto {
+    left: 3.4375rem !important;
+    top: 16.875rem !important;
+    
+} 
+.showcase-items {
+    display: grid;;
+    grid-template-columns: 1fr 1fr !important;
+}
+.comienzos-par {
+    color: var(--secong-color);
+    text-align: center;
+    background-color: #f8f8f5;
+    padding: 40px;
+    margin-bottom: 4rem;
+}
+.contacto ul {
+    display: flex !important;
+    text-decoration: none;
+}
+
+.contacto li a {
+    font-size: 23px !important;
+    padding: 2px !important;
+    margin: 0 auto !important;
+    margin-right: 40px !important;
+}
+
+.social-icon {
+    font-size: 360% !important;
+}
+
+.jorge-link p {
+    font-size: 15px !important;
+    padding: 8px;
+}
+
+}
+
+/* /////////// iPhone 4 //////////////// */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3)
+{
+     /* body {
+        background-color: rebeccapurple;
+    }  */
+    .header {
+        height: 160vh !important;
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+        position: relative;
+    }
+    .welcome {
+        margin-top: 35% !important;
+        padding: 60px ;
+    }
+    
+    .welcome h1 {
+        font-size: 80px;
+        font-weight: bold;
+        color: #fff;
+        letter-spacing: var(--letter-spa);
+    }
+    .btn-contacto {
+        left: 3.4375rem !important;
+        top: 16.875rem !important;
+        
+    } 
+    /* .navbar-nav {
+        padding-left: 1px !important;
+        margin-top: 5px !important;
+    } */
+}
+
+/* iPhone 5 only */
+/* iPhone 5 Retina regardless of IOS version */
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2)
+   and (orientation: portrait) {
+    /* body {
+        background-color: violet;
+    } */
+
+    .header {
+        height: 130vh !important;
+    }
+    
+}

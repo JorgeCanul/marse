@@ -1,0 +1,96 @@
+/* ////////////// iPhone X,  */
+@media screen and (max-width: 991.98px) 
+and (orientation: landscape) {
+    /* body {
+        background-color: slategray;
+    } */
+    .navbar-nav {
+        padding-right: 10px !important;
+        margin-top: 50px !important;
+    }
+    .navbar-nav .nav-link {
+        font-size: 20px;
+        padding-left: 1.5rem !important;
+        color: var(--main-color) !important;
+        margin-right: 0.125rem !important;
+        margin-top: 10px;
+        border-bottom: none;
+    }
+    .header {
+        height: 120vh !important;
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+        position: relative;
+    }
+
+    .portofolio-img-background {
+        height: 170px !important;
+        width: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+/* /////////// iPhone 4 //////////////// */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3)
+{
+     body {
+        background-color: blue;
+    } 
+    
+    
+}
+
+
+/* ////////////// iPhone 6, 7, 8 +,  */
+/* @media screen and (max-width: 767.98px) 
+and (orientation: landscape) {
+    body {
+        background-color: salmon;
+    }
+    
+} */
+
+
+
+/* //// iPhone 4/ iPhone 5/se//// */
+@media screen and (max-width: 575.98px)
+and (orientation: landscape)  {
+    /* body {
+        background-color: turquoise;
+    } */
+    .welcome {
+        margin-top: 8% !important;
+        padding: 60px ;
+    }
+    
+    .welcome h1 {
+        font-size: 60px !important;
+        font-weight: bold;
+        color: #fff;
+        letter-spacing: var(--letter-spa);
+    }
+    .btn-contacto {
+        left: 3.4375rem !important;
+        top: 13.875rem !important;
+        
+    } 
+}
+
+/*iPhone 4 and 4S landscape*/
+/* @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) { 
+
+    body {
+        background-color: yellow;
+    }
+    
+}
+  */
+ 
